@@ -17,5 +17,9 @@ $turquoise:  #01c1d6;
 $light-gray: #afafaf;
 $dark-gray:  #4b4e53;
 
+// Change the base font.
+$font-family-serif: -apple-system, BlinkMacSystemFont, Georgia, serif;
+$font-family-base:  $font-family-serif;
+
 // Include all of Bootstrap.
 @import "node_modules/bootstrap/scss/bootstrap";
