@@ -1,5 +1,21 @@
 // My bootstrap customisations.
 
-// Include all of Bootstrap
+// Override colours.
+$blue:    #150f96;
+$indigo:  #6610f2 !default;
+$purple:  #6e27c5;
+$pink:    #ff0198;
+$red:     #f1352b;
+$orange:  #ff6600;
+$yellow:  #ffb617;
+$green:   #7acb00;
+$teal:    #20c997 !default;
+$cyan:    #17a2b8 !default;
 
+// New colours.
+$turquoise:  #01c1d6;
+$light-gray: #afafaf;
+$dark-gray:  #4b4e53;
+
+// Include all of Bootstrap.
 @import "node_modules/bootstrap/scss/bootstrap";
