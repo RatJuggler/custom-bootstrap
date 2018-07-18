@@ -8,9 +8,13 @@
     "scss":  "node-sass scss -o css",
     "watch": "node-sass --watch scss -o css"
   },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
+  "author": "John Chase",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RatJuggler/custom-bootstrap.git"
+  },
+  "devDependencies": {
     "bootstrap": "^4.1.1",
     "jquery": "^3.3.1",
     "popper.js": "^1.14.3"
