@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "scss":  "node-sass scss -o css",
+    "scss": "node-sass scss -o css",
     "watch": "node-sass --watch scss -o css"
   },
   "author": "John Chase",
@@ -15,8 +15,8 @@
     "url": "https://github.com/RatJuggler/custom-bootstrap.git"
   },
   "devDependencies": {
-    "bootstrap": "^4.1.1",
+    "bootstrap": "^4.3.1",
     "jquery": "^3.3.1",
-    "popper.js": "^1.14.3"
+    "popper.js": "^1.14.7"
   }
 }
