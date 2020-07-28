@@ -1,22 +1,27 @@
 {
   "title": "My Custom Bootstrap",
   "name": "custom-bootstrap",
-  "version": "1.0.0",
-  "description": "My custom bootstrap.",
+  "version": "1.1.0",
+  "private": true,
+  "description": "My custom Bootstrap.",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "scss": "node-sass scss -o css",
     "watch": "node-sass --watch scss -o css"
   },
+  "keywords": [],
   "author": "John Chase",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/RatJuggler/custom-bootstrap.git"
+    "url": "git+https://github.com/RatJuggler/custom-bootstrap.git"
   },
+  "browserslist": [
+    "defaults"
+  ],
   "devDependencies": {
-    "bootstrap": "^4.3.1",
-    "jquery": "^3.4.0",
-    "popper.js": "^1.14.7"
+    "bootstrap": "^4.5.0",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
   }
 }
