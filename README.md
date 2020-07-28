@@ -1,6 +1,5 @@
 # custom-bootstrap
 
-![GitHub](https://img.shields.io/github/license/RatJuggler/custom-bootstrap)
 [![David](https://david-dm.org/RatJuggler/custom-bootstrap.svg)](https://david-dm.org/RatJuggler/custom-bootstrap)
 ![GitHub](https://img.shields.io/github/package-json/v/RatJuggler/custom-bootstrap)
 
