@@ -6,8 +6,8 @@
   "description": "My custom Bootstrap.",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "scss": "node-sass scss -o css",
-    "watch": "node-sass --watch scss -o css"
+    "scss": "sass scss:css",
+    "watch": "sass --watch scss:css"
   },
   "keywords": [],
   "author": "John Chase",
@@ -16,12 +16,17 @@
     "type": "git",
     "url": "git+https://github.com/RatJuggler/custom-bootstrap.git"
   },
+  "bugs": {
+    "url": "https://github.com/RatJuggler/custom-bootstrap/issues"
+  },
   "browserslist": [
     "defaults"
   ],
+  "dependencies": {},
   "devDependencies": {
-    "bootstrap": "^4.5.0",
+    "bootstrap": "^4.5.3",
     "jquery": "^3.5.1",
-    "popper.js": "^1.16.1"
+    "popper.js": "^1.16.1",
+    "sass": "^1.29.0"
   }
 }
